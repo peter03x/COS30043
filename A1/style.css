@@ -1,0 +1,94 @@
+
+
+.filter-options{
+  margin-bottom: 30px;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.events {
+  font-family: 'Inter';
+  color: white;
+  font-size: 13px;
+  margin-left: 20px;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.login-register {
+  display: flex;
+  gap: 10px;
+  margin-right: 80px;
+}
+
+.login, .register {
+  font-size: 10px;
+  font-family: 'Inter';
+  background-color: #E3E3E3;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: black
+}
+
+.register {
+  background-color: #2C2C2C;
+  border-color: #2C2C2C;
+  color: white
+}
+
+  .homepage {
+    font-family: "Roboto", sans-serif;
+  }
+  .homepage h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .label-text {
+    font-weight: bold;
+  }
+
+.homepage {
+  font-family: "Roboto", sans-serif;
+}
+.homepage h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-image {
+  width: 100%; /* Make the div span the full width of the viewport */
+  height: 300px; /* Adjust the height as needed */
+  background-image: url('assets/Event.jpeg'); /* Replace 'your-image.jpg' with the actual image path */
+  background-size: cover; /* Scale the image to cover the entire container */
+  background-position: center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
